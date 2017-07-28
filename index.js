@@ -85,7 +85,7 @@ bot.on("message", function(data) {
 });
        
 
-app.listen(8080);
+app.listen(process.env.PORT || 8080);
 console.log("jokebot started");
 
 //node index.js token to run
