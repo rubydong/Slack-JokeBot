@@ -85,7 +85,7 @@ bot.on("message", function(data) {
 });
        
 
-app.listen(1337);
+app.listen(8080);
 console.log("jokebot started");
 
 //node index.js token to run
