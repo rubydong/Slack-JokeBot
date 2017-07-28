@@ -48,8 +48,6 @@ var jokes = [
     
     "Where there's a will, there's a relative.", 
     
-    "My wife just found out I replaced our bed with a trampoline; she hit the roof.",
-    
     "C program run. C program crash. C programmer quit.",
     
     "Ever notice how fast Windows runs? Neither did I.",
@@ -60,11 +58,7 @@ var jokes = [
     
     "There are so many scams on the Internet these days....but for $19.95 I can show you how to avoid them",
     
-//    "I'm great at multitasking. I can waste time, be unproductive, and procrastinate all at once.",
-    
-//    "I would lose weight, but I hate losing.",
-    
-//    "Does running late count as exercise?",
+    "I'm great at multitasking. I can waste time, be unproductive, and procrastinate all at once.",
     
     "CAPS LOCK – Preventing Login Since 1980.",
     
@@ -74,12 +68,12 @@ var jokes = [
     
     "I would love to change the world, but they won’t give me the source code.",
     
-    "If you give someone a program, you will frustrate them for a day; if you teach them how to program, you will frustrate them for a lifetime.",
+    "If you give someone a program, you will frustrate them for a day. If you teach them how to program, you will frustrate them for a lifetime.",
     
     "My attitude isn’t bad. It’s in beta."
 ];
 
-bot.on('message', function(data) {
+bot.on("message", function(data) {
     var params = {
         icon_url: 'http://i3.kym-cdn.com/entries/icons/original/000/019/601/smilelaugh.jpg'
     }
@@ -93,4 +87,5 @@ bot.on('message', function(data) {
 
 app.listen(1337);
 console.log("jokebot started");
+
 //node index.js token to run
