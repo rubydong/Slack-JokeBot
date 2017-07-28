@@ -3,7 +3,7 @@ var app = express();
 var SlackBot = require('slackbots');
 
 var bot = new SlackBot({
-    token: process.argv[2], 
+    token: "xoxb-219174976532-nKOomTipcBWWB8Z9iPPjpDRn", 
     name: 'JokeBot'
 });
  
