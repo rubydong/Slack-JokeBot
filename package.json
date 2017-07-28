@@ -1,7 +1,7 @@
 {
   "name": "jokebot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A joke bot for slack made for Corcoran's team! <br> \"I would love to change the world, but they won’t give me the source code.\"",
   "main": "index.js",
   "dependencies": {
     "slackbots": "^1.0.2"
@@ -11,5 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubydong/Slack-JokeBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rubydong/Slack-JokeBot/issues"
+  },
+  "homepage": "https://github.com/rubydong/Slack-JokeBot#readme"
 }
