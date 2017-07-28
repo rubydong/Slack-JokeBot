@@ -75,7 +75,7 @@ var jokes = [
 
 bot.on("message", function(data) {
     var params = {
-        icon_url: 'http://i3.kym-cdn.com/entries/icons/original/000/019/601/smilelaugh.jpg'
+        icon_url: process.env.ICONURL
     }
     if (data.content && data.content.indexOf("joke") != -1) {
         bot.postMessageToUser(data.subtitle, jokes[(Math.round(Math.random() *  jokes.length))], params); 
